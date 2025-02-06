@@ -1,0 +1,59 @@
+.body {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0px;
+}
+
+.header {
+    background-color: rgb(15, 15, 15);
+    color: darkgray;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.div-task-adder {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.task-adder {
+    color: rgb(63, 63, 63);
+    width: 700px;
+    height: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.add-button {
+    margin-left: 25px;
+    height: 34px;
+    width: 50px;
+    font-size: 17px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    cursor: pointer;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+}
+
+input [type=checkbox] {
+    margin-left: 30%;
+}
